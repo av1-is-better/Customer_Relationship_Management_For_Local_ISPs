@@ -1,0 +1,1 @@
+please enter you auth0 creds and backend host in main.jsx

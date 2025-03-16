@@ -1,0 +1,256 @@
+.custom-modal {
+    max-width: 600px; /* Change this to whatever width you want */
+    margin: auto;
+  }
+
+.custom-list-client-specific-transaction-modal {
+    max-width: 800px; /* Change this to whatever width you want */
+    margin: auto;
+  }
+
+.custom-admin-transaction-detail-modal {
+    max-width: 450px; /* Change this to whatever width you want */
+    margin: auto;
+  }
+
+.custom-plan-detail-modal {
+    max-width: 520px; /* Change this to whatever width you want */
+    margin: auto;
+  }
+
+.custom-create-client-modal {
+    max-width: 820px; /* Change this to whatever width you want */
+    margin: auto;
+  }
+
+.profile-modal {
+    width: 350px; /* Change this to whatever width you want */
+    margin: auto;
+  }
+
+  .modal-content-custom {
+    --bs-modal-bg: transparent;
+    --bs-modal-border-width: none;
+    --bs-modal-border-color: none;
+  }
+
+.client-logout-modal {
+    max-width: 380px; /* Change this to whatever width you want */
+    align-self: center;
+    justify-content: center;
+  }
+
+.custom-green {
+  color:green;
+}
+
+.client-home-btn {
+  border: 1px solid gray;
+  color: white;
+  background-color: #212529;
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .client-home-btn:hover {
+    border: 1px solid #212529;
+    color: #1d2124;
+    background-color: ghostwhite;
+    font-weight: bold;
+  }
+}
+
+.home-div-transparent {
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.div-transparent {
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rounded-top-left {
+  border-top-left-radius: 0.5rem; /* Adjust radius as needed */
+}
+
+.rounded-top-right {
+  border-top-right-radius: 0.5rem; /* Adjust radius as needed */
+}
+
+.rounded-bottom-left {
+  border-bottom-left-radius: 0.5rem; /* Adjust radius as needed */
+}
+
+.rounded-bottom-right {
+  border-bottom-right-radius: 0.5rem; /* Adjust radius as needed */
+}
+
+.invoice-button {
+  color: black;
+}
+
+.invoice-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.invoice-three-dot:hover {
+  background-color: white;
+  color: black;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.hide-scrollbar {
+  overflow-y: auto;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;  /* Safari and Chrome */
+}
+
+  /* Hide spinner controls in Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.bg-light::placeholder {
+  color: #6c757d; /* Change to your preferred color */
+  opacity: 1;     /* Ensures it uses the color without additional transparency */
+}
+
+textarea.bg-light::placeholder {
+  color: #6c757d; /* Change to your preferred color */
+  opacity: 1;     /* Ensures it uses the color without additional transparency */
+}
+
+select.bg-light {
+  appearance: none; /* Removes default arrow */
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23555'><path d='M10 12l-4-4h8l-4 4z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 2em;
+  padding-right: 2em; /* Space for custom arrow */
+}
+
+.borderless {
+  border: none;
+}
+
+.vertical-line {
+  border-left: 3px solid gray; /* Adjust color and thickness as needed */
+  height: 80px; /* Set to your desired height, or use a fixed height */
+  margin-top: 20px;
+}
+
+.green-gradient-bg-card {
+  background: rgb(66,46,247);
+  background: linear-gradient(90deg, rgba(66,46,247,1) 19%, rgba(223,0,0,1) 49%, rgba(26,143,0,1) 93%);
+  color: #000; /* Keep text color black */
+}
+
+.pink-gradient-bg-card {
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(236,138,0,1) 100%);   
+  color: #000; /* Keep text color black */
+}
+
+.first-gradient-combo {
+  color: #000;
+  background: rgb(240,238,255);
+  background: linear-gradient(90deg, rgba(240,238,255,1) 15%, rgba(255,248,250,1) 49%, rgba(227,230,255,1) 93%);
+}
+
+.second-gradient-combo {
+  background: rgb(219,219,219);
+  background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(255,255,255,1) 50%, rgba(219,219,219,1) 100%);
+  color: #000;
+}
+
+.dark-gradient {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(58,62,62,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.rounded-table {
+  border-collapse: separate; /* Allows border-radius to apply */
+  border-spacing: 0; /* Removes gaps between cells */
+  overflow: hidden;
+  border-radius: 10px; /* Adjust for desired roundness */
+}
+
+.rounded-table th,
+.rounded-table td {
+  border: 1px solid #ddd; /* Optional: Add a light border to table cells */
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+.custom-scrollwheel::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.btn-teal {
+  background-color: teal;
+  color: white;
+}
+
+.btn-teal:hover {
+  background-color: #0b5c52;
+  color: white;
+}
+
+.custom-scrollwheel::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+.custom-scrollwheel::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.custom-scrollwheel::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Scrollbar color on hover */
+}
+
+/* For Firefox */
+.custom-scrollwheel {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #888 #f1f1f1; /* thumb and track color */
+}
+
+.btn-dark--client-complaint {
+  background-color: #000;
+  color: white;
+}
+
+.btn-dark--client-complaint:hover {
+  background-color: #000;
+  color: white;
+}
+
+.bg-lightgreen {
+  background-color: #f3faeb;
+  color: black;
+}
+
+.bg-darkred {
+  background-color: #c21111;
+  color: black;
+}
+
+.bg-lightred {
+  background-color: #ffd4d4;
+  color: black;
+}
