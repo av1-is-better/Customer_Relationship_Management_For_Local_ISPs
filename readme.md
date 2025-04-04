@@ -1,5 +1,5 @@
 # Customer Relationship Management for Local ISPs
-
+![Alt text](screenshot/image.png)
 A **Customer Relationship Management (CRM) system** designed specifically for **local ISPs** to manage customers, track subscriptions, handle billing, and streamline support operations efficiently.
 
 ## 🚀 Features
